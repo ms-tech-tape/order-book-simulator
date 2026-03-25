@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "OrderBook.h"
 #include <iostream>
 #include <iomanip>
@@ -180,3 +181,13 @@ double OrderBook::getLastTradePrice() const {
 uint64_t OrderBook::getTotalTradesExecuted() const {
     return trade_history.size();
 }
+=======
+#include <algorithm> // for std::find_if
+#include <vector> // for std::vector
+// other includes as needed
+
+// Your code with corrected std::find_if usage here
+
+// Example corrected usage of std::find_if: 
+// auto it = std::find_if(vector.begin(), vector.end(), condition);
+>>>>>>> 9b8f7de04e417ac33701c58d9c5579c2ce374ef4

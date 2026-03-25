@@ -1,5 +1,6 @@
 # Order Book Simulator
 
+<<<<<<< HEAD
 A high-performance order book simulator written in C++ for HFT (High-Frequency Trading) software engineering. This project implements a full order book with buy orders, sell orders, automatic order matching, and trade execution.
 
 ## Features
@@ -131,6 +132,8 @@ MIT License
 
 Created for HFT Software Engineering Internship# Order Book Simulator
 
+=======
+>>>>>>> 9b8f7de04e417ac33701c58d9c5579c2ce374ef4
 ## Features
 - High-performance order matching.
 - Real-time order processing.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef ORDERBOOK_H
 #define ORDERBOOK_H
 
@@ -37,3 +38,25 @@ public:
 };
 
 #endif // ORDERBOOK_H
+=======
+// OrderBook.h
+
+#ifndef ORDERBOOK_H
+#define ORDERBOOK_H
+
+class OrderBook {
+public:
+    // Constructor
+    OrderBook();
+
+    // Add buy order
+    void addBuyOrder(int orderId, double price, int quantity);
+
+    // Add sell order
+    void addSellOrder(int orderId, double price, int quantity);
+
+    // Other member functions...
+};
+
+#endif // ORDERBOOK_H
+>>>>>>> 9b8f7de04e417ac33701c58d9c5579c2ce374ef4

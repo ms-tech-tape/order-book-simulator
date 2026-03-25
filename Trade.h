@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef TRADE_H
 #define TRADE_H
 
@@ -23,3 +24,11 @@ struct Trade {
 };
 
 #endif // TRADE_H
+=======
+struct Trade {
+    int id;
+    float price;
+    int quantity;
+    time_t timestamp;
+};
+>>>>>>> 9b8f7de04e417ac33701c58d9c5579c2ce374ef4
