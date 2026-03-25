@@ -1,0 +1,10 @@
+^D:\C++\ORDER-BOOK-SIMULATOR\BUILD\CMAKEFILES\9B1B00BD315CF94746C8746AC1109576\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++/order-book-simulator -BD:/C++/order-book-simulator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/C++/order-book-simulator/build/order_book_simulator.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

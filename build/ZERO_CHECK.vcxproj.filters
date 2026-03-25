@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\C++\order-book-simulator\build\CMakeFiles\9b1b00bd315cf94746c8746ac1109576\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4F31A034-6E23-3E7D-999E-B81AB29CA62D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
